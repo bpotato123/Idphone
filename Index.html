@@ -1,1 +1,305 @@
-證件照APP
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>證件照 - 您的隨身證件照製作專家</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+    color:#333;
+    line-height:1.8;
+}
+
+header{
+    background:linear-gradient(135deg,#3b82f6,#2563eb);
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:20px;
+    opacity:.95;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:60px 0;
+}
+
+.section-title{
+    text-align:center;
+    font-size:34px;
+    color:#2563eb;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:28px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:12px;
+    font-size:22px;
+}
+
+.card p{
+    color:#555;
+}
+
+.spec{
+    background:white;
+    border-radius:18px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.spec ul{
+    margin-top:20px;
+    padding-left:25px;
+}
+
+.spec li{
+    margin:10px 0;
+}
+
+.cta{
+    text-align:center;
+    padding:70px 20px;
+    background:linear-gradient(135deg,#2563eb,#1d4ed8);
+    color:white;
+}
+
+.cta h2{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.button{
+    display:inline-block;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    padding:16px 36px;
+    border-radius:40px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#1f2937;
+    color:#ccc;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:32px;
+}
+
+.section-title{
+    font-size:28px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📸 證件照</h1>
+
+<p>您的隨身證件照製作專家</p>
+
+<br>
+
+<p>
+無論是身分證、護照、駕照、學生證、簽證、台胞證等各種證件，
+只需幾個步驟，即可快速製作符合規格的專業證件照。
+</p>
+
+</header>
+
+<div class="container">
+
+<section class="section">
+
+<h2 class="section-title">
+✨ 主要功能
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🤖 AI 智慧去背</h3>
+<p>
+AI 自動辨識人物背景，一鍵完成去背，可快速更換背景顏色。
+</p>
+</div>
+
+<div class="card">
+<h3>🎨 12 種背景</h3>
+<p>
+提供 6 種素色與 6 種漸層背景，
+可依不同證件需求快速切換。
+</p>
+</div>
+
+<div class="card">
+<h3>✂️ 精準裁剪</h3>
+<p>
+支援縮放、旋轉、平移，
+自由調整頭部比例，符合官方規格。
+</p>
+</div>
+
+<div class="card">
+<h3>💄 AI 美顏</h3>
+<p>
+自然潤膚、美肌與彩妝調整，
+打造自然又專業的證件照。
+</p>
+</div>
+
+<div class="card">
+<h3>☀️ 光影調整</h3>
+<p>
+亮度、對比、色彩自由調整，
+讓照片更加清晰自然。
+</p>
+</div>
+
+<div class="card">
+<h3>🖨️ 一鍵排版</h3>
+<p>
+自動產生 4×2 排版，
+一次輸出 8 張標準證件照，
+方便直接沖洗列印。
+</p>
+</div>
+
+<div class="card">
+<h3>💾 快速儲存</h3>
+<p>
+可儲存電子證件照，
+也可輸出完整列印版，
+方便分享與列印。
+</p>
+</div>
+
+<div class="card">
+<h3>⚡ 操作簡單</h3>
+<p>
+幾分鐘即可完成整張證件照，
+免出門、免排隊，在家即可完成。
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">
+📋 支援證件規格
+</h2>
+
+<div class="spec">
+
+<ul>
+
+<li>🇹🇼 中華民國身分證</li>
+
+<li>🛂 中華民國護照</li>
+
+<li>🚗 汽機車駕照</li>
+
+<li>💳 健保卡</li>
+
+<li>🎓 學生證</li>
+
+<li>🛃 簽證照片</li>
+
+<li>🪪 台胞證</li>
+
+<li>🌍 更多國際證件照規格持續新增中...</li>
+
+</ul>
+
+</div>
+
+</section>
+
+</div>
+
+<section class="cta">
+
+<h2>
+立即開始製作您的專業證件照
+</h2>
+
+<p>
+AI 智慧去背、美顏、排版、列印，一站完成。
+<br>
+讓您輕鬆擁有符合官方規格的高品質證件照。
+</p>
+
+<a href="#" class="button">
+立即下載 APP
+</a>
+
+</section>
+
+<footer>
+
+© 2026 證件照 APP All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
